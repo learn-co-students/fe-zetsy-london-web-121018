@@ -66,8 +66,18 @@ p {
 	border: 5px rgb(152,173,166) solid;
 }
 
-img[src*="logo"] {
+#press img[src*="logo"] {
 	border: 5px rgb(204,204,204) solid;
+	-webkit-transition: border-color 1s ease-out;
+  	-moz-transition: border-color 1s ease-out;
+  	-o-transition: border-color 1s ease-out;
+  	transition: border-color 1s ease-out;
 }
+
+#press img[src*="logo"]:hover {
+	border: 5px rgb(112,127,122) solid;	
+}
+
+
 
 
