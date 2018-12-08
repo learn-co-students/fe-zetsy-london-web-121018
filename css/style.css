@@ -7,14 +7,31 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 10px 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+/*//////// 	HEADINGS ////////////////*/
+
+h1 {
+	font-family: 'Times New Roman', serif;
+	color: rgb(160, 170, 166)
+}
+
+h2 {
+	color: rgb(112, 125, 122)
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(203, 205, 204);
+}
